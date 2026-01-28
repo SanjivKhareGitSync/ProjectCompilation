@@ -40,7 +40,7 @@ namespace TheImpracticalNameSpace
         {
             using (StreamWriter writer2 = new StreamWriter(@"E:\Program Files\FileWriteOutPutfolder\output2.txt", false))
             {
-                writer2.WriteLine(input +"---------"+ DateTime.Now.TimeOfDay);  // Or writer.Write(input);
+                writer2.WriteLine(input +"---------"+ DateTime.Now.TimeOfDay);
             }
         }
     }
